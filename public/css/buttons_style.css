@@ -1,0 +1,233 @@
+.avatar_change_button
+{
+    border: 1px solid steelblue !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 25px;
+}
+
+.connection_button_forget, .connection_button_deleted, .forgotten_password_button
+{
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    width: 150px;
+}
+
+.creator_card_buttons, .creators_card_buttons, .player_card_buttons, .user_card_buttons, .waiters_card_buttons
+{
+    border-radius: 5px;
+    padding: 1px;
+    width: 68px;
+}
+
+.user_card_big_buttons, .player_card_big_buttons
+{
+    border-radius: 10px;
+    height: 30px;
+    padding: 2px;
+    width: 136px;
+}
+
+.event_creation_button, .event_day_button
+{
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    width: 150px;
+}
+
+.event_restoration_button, .show_calendar_button
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+#event_modification_button
+{
+    margin: 5px auto;
+}
+
+.event_modification_button
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    width: 150px;
+}
+
+.suppression_button_suppress
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    width: 100px;
+}
+
+.event_suppression_button
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    width: 150px;
+}
+
+.header_button
+{
+    border-radius: 5px;
+    height: 22px;
+    width: 120px;
+}
+
+.header_pseudo_button
+{
+    border-radius: 5px;
+    height: 22px;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+.return_button
+{
+    align-self: flex-start;
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+}
+
+.security_suppression_button
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 40px;
+    width: 150px;
+}
+
+.security_verification_button
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 40px;
+    margin: 0 auto 10px auto;
+    width: 220px;
+}
+
+/*boutons de validation*/
+.avatar_form_button, .connection_form_button, #contact_form_button, .event_list_buttons, .forgotten_password_form_button, .inscription_form_button, .modification_form_button, .new_event_button, .password_reset_form_button, .profile_zoom_button_modify, .profile_zoom_button_security, .recuperation_form_button, .security_forms_buttons, .suppression_button_archive
+{
+    border-radius: 5px;
+    display: inline-block;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    width: 100px;
+}
+
+
+
+/**************************************************/
+.bad
+{
+    background-color: #ff0014;
+    border: 1px solid black;
+    box-shadow: inset -1px -1px 2px 0 grey;
+    color: black;
+}
+.bad:hover
+{
+    background-color: #eb0014;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.bad:active
+{
+    box-shadow: inset 1px 1px 2px 0 grey;
+    transform: translateY(1px);
+}
+
+.good
+{
+    background-color: #00eb00;
+    border: 1px solid black;
+    box-shadow: inset -1px -1px 2px 0 grey;
+    color: black;
+}
+.good:hover
+{
+    background-color: #00ff00;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.good:active
+{
+    box-shadow: inset 1px 1px 2px 0 grey;
+    transform: translateY(1px);
+}
+
+.neutral
+{
+    background-color: lightgrey;
+    border: 1px solid black;
+    box-shadow: inset -1px -1px 2px 0 grey;
+    color: black;
+}
+.neutral:hover
+{
+    background-color: #e1e1e1;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.neutral:active
+{
+    box-shadow: inset 1px 1px 2px 0 grey;
+    transform: translateY(1px);
+}
+
+.normal
+{
+    background-color: #00afeb;
+    border: 1px solid black;
+    box-shadow: inset -1px -1px 2px 0 grey;
+    color: black;
+}
+.normal:hover
+{
+    background-color: deepskyblue;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.normal:active
+{
+    box-shadow: inset 1px 1px 2px 0 grey;
+    transform: translateY(1px);
+}
+
+.warning
+{
+    background-color: darkorange;
+    border: 1px solid black;
+    box-shadow: inset -1px -1px 2px 0 grey;
+    color: black;
+}
+.warning:hover
+{
+    background-color: orange;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.warning:active
+{
+    box-shadow: inset 1px 1px 2px 0 grey;
+    transform: translateY(1px);
+}
+/**************************************************/

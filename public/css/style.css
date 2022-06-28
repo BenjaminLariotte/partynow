@@ -1,0 +1,590 @@
+/*BALISES PAR DEFAUT*/
+a
+{
+    color: steelblue;
+    text-decoration: none;
+}
+a:hover
+{
+    color: deepskyblue;
+}
+
+body
+{
+    /*background-image: url("../images/background2.jpg");*/
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    display: grid;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    grid-template-areas: "body_header" "body_main" "body_footer";
+    grid-template-rows: 50px 1fr 30px;
+    margin: 0;
+}
+
+footer
+{
+    background-color: steelblue;
+    color: white;
+    grid-area: body_footer;
+    height: 20px;
+    margin: 0 auto;
+    min-width: 900px;
+    padding: 5px 0;
+    text-align: center;
+    width: 70vw;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    color: #e41010;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+h3
+{
+    font-family: 'Lato', sans-serif;
+    margin: 5px;
+    text-align: center;
+}
+
+header
+{
+    grid-area: body_header;
+    background-color: steelblue;
+    border-bottom: 1px solid black;
+    position: fixed;
+    height: 49px;
+    width: 100vw;
+    z-index: 5;
+}
+
+main
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: body_main;
+    justify-content: center;
+    margin: 11px auto;
+    min-height: calc(100vh - 100px);
+    min-width: 900px;
+    width: 70vw;
+}
+
+p
+{
+    margin: 0;
+}
+
+table
+{
+/*    position: relative;
+    z-index: -1;*/
+}
+
+ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+/*IDs*/
+#connection_buttons, .recuperation_button
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.creator_pseudo
+{
+    color: steelblue;
+}
+
+.event_creation_link
+{
+    display: block;
+    text-align: center;
+}
+
+#event_day_buttons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.event_modification_max_players_div
+{
+    background-color: white;
+    margin: 10px 5px;
+}
+
+
+#header_avatar_div
+{
+    border: 1px solid steelblue;
+    border-bottom-color: black;
+    height: 48px;
+    width: 48px;
+}
+
+#header_avatar_div:hover
+{
+    background-color: deepskyblue;
+    border-color: white;
+}
+
+#header_avatar_image
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 46px;
+    overflow: hidden;
+    width: 46px;
+}
+
+#header_buttons
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
+    position: relative;
+}
+
+#header_div
+{
+    height: 50px;
+    margin: 0 auto;
+    min-width: 900px;
+    width: 70vw;
+}
+
+#header_logo
+{
+    border: 1px solid steelblue;
+    border-bottom-color: black;
+    float: left;
+    height: 48px;
+    width: 48px;
+}
+
+#header_logo:hover
+{
+    background-color: deepskyblue;
+    border-color: white;
+}
+
+.header_user_div
+{
+    display: inline-flex;
+    float: right;
+    height: 50px;
+    position: relative;
+    vertical-align: bottom;
+}
+
+#log_div
+{
+    background: palegreen;
+    margin: 0 auto;
+    min-width: 900px;
+    padding: 5px;
+    text-align: center;
+    height: 20px;
+    width: 100vw;
+}
+
+#main_div
+{
+    background-color: lightsteelblue;
+    border-radius: 10px;
+    margin: 20px auto 10px auto;
+    min-height: 500px;
+    min-width: 840px;
+    width: 60vw;
+}
+
+#new_event_description_input, #event_modification_description_input
+{
+    height: 90px;
+}
+
+.user_avatar_image
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 68px;
+    overflow: hidden;
+    width: 68px;
+}
+
+.profile_avatar_image
+{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 128px;
+    overflow: hidden;
+    width: 128px;
+}
+
+.avatar_form_avatar, #new_avatar_image, #new_avatar_image_label, #security_form_real_id, #security_form_real_id_label
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*CLASSES*/
+.contact_form_text_area
+{
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.event_calendar_link, .event_today_link
+{
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.event_day_date
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.event_day_intro_buttons
+{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.event_zoom_content
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 800px;
+}
+
+.event_zoom_creator_buttons_div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 10px;
+    text-align: center;
+}
+
+.event_zoom_creator_div
+{
+    position: relative;
+    text-align: center;
+}
+
+.event_zoom_creator_div:hover
+{
+    cursor: pointer;
+}
+
+.event_zoom_infos
+{
+    align-content: center;
+    background-color: #DFDFDF;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 350px;
+}
+
+.event_zoom_chat_div
+{
+    background-color: #DFDFDF;
+    border: 1px solid red;
+    height: 400px;
+    margin: 10px auto;
+    text-align: center;
+    width: 800px;
+}
+
+.event_zoom_lists
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 350px;
+}
+
+.event_zoom_presentation
+{
+    hyphens: auto;
+    margin: 5px auto;
+    overflow-wrap: break-word;
+    padding: 5px;
+    text-align: left;
+    width: 300px;
+}
+
+.home_base
+{
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main_buttons_div
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.modification_form_radio_inputs
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_div
+{
+    background-color: #a3a3a3;
+    border: 1px solid red;
+    height: 150px;
+    margin: 10px;
+    width: 300px;
+}
+
+.profile_div_1
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_div_2, .profile_div_3
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+    width: 800px;
+}
+
+.profile_zoom_buttons_div
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile_zoom_li
+{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px auto;
+    width: 50%;
+}
+
+.profile_zoom_titles
+{
+    width: 50%;
+}
+
+.profile_zoom_values
+{
+    justify-self: flex-start;
+    width: 50%;
+}
+
+.security_real_id_text_bad
+{
+    color: red;
+    margin: 10px;
+    text-align: center;
+}
+
+.security_real_id_text_good
+{
+    color: mediumseagreen;
+    margin: 10px;
+    text-align: center;
+}
+
+.security_verification_link, .security_suppression_button_link
+{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.security_verification_text_bad
+{
+    color: red;
+    margin: 10px;
+    text-align: center;
+}
+
+.security_verification_text_good
+{
+    color: mediumseagreen;
+    margin: 10px;
+    text-align: center;
+}
+
+.spacing
+{
+    border-top: 1px solid red;
+    margin: auto;
+    width: 70%;
+}
+
+.suppression_archive_buttons_div
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.suppression_archive_text
+{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.suppression_div
+{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    width: 800px;
+}
+
+.suppression_div_archive, .suppression_div_suppress
+{
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 5px;
+    width: 600px;
+}
+
+.suppression_button_suppress
+{
+    text-align: center;
+}
+.suppression_suppress_text_1
+{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.suppression_suppress_text_2
+{
+    font-weight: bold;
+    text-align: center;
+    animation:blinkingText 1s infinite;
+}
+
+@keyframes blinkingText
+{
+    0%{     color: transparent;    }
+    100%{   color: #D90000;    }
+}
+
+.waiters_list_text
+{
+    margin-bottom: 20px;
+}
+
+
+/*MULTIPLES*/
+.avatar_form_div, #connection_form_div, #contact_form_div, .description_modification_form_div, .forgotten_password_form_div, .new_event_form_div, #inscription_form_div, .modification_form_div, .event_modification_form_div, .password_reset_form_div, .recuperation_form_div, .security_forms_div
+{
+    margin: 20px auto;
+    min-width: 720px;
+    width: 720px;
+}
+
+#avatar_form_explanation, #connection_form_explanation, #contact_form_explanation, .forgotten_password_form_explanation, #inscription_form_explanation, #modification_form_explanation, .event_modification_form_explanation, .password_reset_form_explanation, .recuperation_form_explanation, .security_form_explanation
+{
+    margin-bottom: 5px;
+    text-align: end;
+}
+
+.avatar_form_inputs, .connection_form_inputs, .contact_form_inputs, .forgotten_password_form_input, .inscription_form_inputs, .modification_form_inputs, .description_modification_input, .new_event_form_inputs, .password_reset_form_inputs, .recuperation_form_inputs, .security_forms_inputs
+{
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#event_players_list, #event_waiters_list
+{
+    background-color: lightgrey;
+    border: 1px solid red;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+.event_player_name_parent, .event_waiter_name_parent
+{
+    background-color: #00afeb;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+    width: 250px;
+}
+
+.event_player_name_parent:hover, .event_waiter_name_parent:hover, .creator_pseudo:hover
+{
+    background-color: deepskyblue;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+/*.event_player_name, .event_waiter_name, .event_player_name:hover, .event_waiter_name:hover
+{
+    color: inherit;
+}*/
+
+
+
+#event_modification_name_div, #event_modification_date_div, #event_modification_time_div, #event_modification_description_div, #event_modification_game_div, #event_modification_max_players_div
+{
+    position: relative;
+}
+
+.player_zoom_avatar_div, .zoom_avatar_div
+{
+    text-align: center;
+}

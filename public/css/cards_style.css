@@ -1,0 +1,171 @@
+.creator_card_grid
+{
+    left: 290px;
+    top: 10px;
+}
+
+.creators_card_grid
+{
+    left: -160px;
+    position: absolute;
+    top: 30px;
+    z-index: 5;
+}
+
+.player_card_grid, .waiter_card_grid
+{
+    top: 17px;
+    left: -33px;
+}
+
+.player_card_status, .waiter_card_status
+{
+    color: black;
+}
+
+.user_card_grid
+{
+    top: 20px;
+    left: -110px;
+}
+
+.creator_card_grid, .creators_card_grid, .player_card_grid, .user_card_grid, .waiter_card_grid
+{
+    background-color: lightgrey;
+    border: 1px solid steelblue;
+    border-radius: 10px;
+    display: inline-grid;
+    grid-template-areas: "profile_intro profile_intro" "profile_avatar profile_infos" "profile_avatar profile_footer";
+    grid-template-columns: 78px 220px;
+    grid-template-rows: 24px 50px 24px;
+    height: 98px;
+    margin: 10px;
+    position: absolute;
+    width: 298px;
+    z-index: 3;
+}
+
+.creator_card_grid_avatar, .creators_card_grid_avatar, .player_card_grid_avatar, .user_card_grid_avatar, .waiter_card_grid_avatar
+{
+    align-self: center;
+    grid-area: profile_avatar;
+    justify-self: center;
+}
+
+.creator_card_grid_footer, .creators_card_grid_footer, .player_card_grid_footer, .user_card_grid_footer, .waiter_card_grid_footer
+{
+    grid-area: profile_footer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.creator_card_grid_infos, .creators_card_grid_infos, .player_card_grid_infos .user_card_grid_infos, .waiter_card_grid_infos
+{
+    grid-area: profile_infos;
+}
+
+
+.creator_card_grid_intro, .creators_card_grid_intro, .player_card_grid_intro, .user_card_grid_intro, .waiter_card_grid_intro
+{
+    align-self: center;
+    grid-area: profile_intro;
+}
+
+.creator_card_infos_div, .creators_card_infos_div, .player_card_infos_div, .user_card_infos_div, .waiter_card_infos_div
+{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-evenly;
+    padding-right: 10px;
+}
+
+.creator_card_intro_div, .creators_card_intro_div, .player_card_intro_div, .user_card_intro_div, .waiter_card_intro_div
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.creator_card_pseudo, .creators_card_pseudo, .player_card_pseudo, .user_card_pseudo, .waiter_card_pseudo
+{
+    margin-left: 10px;
+}
+
+.creator_card_reputation_stars, .creators_card_reputation_stars, .player_card_reputation_stars, .user_card_reputation_stars, .waiter_card_reputations_stars
+{
+    margin-right: 10px;
+}
+
+/*************************************************************************************/
+.user_card_big_grid, .player_card_big_grid
+{
+    background-color: lightgrey;
+    border: 1px solid steelblue;
+    border-radius: 20px;
+    display: inline-grid;
+    grid-template-areas: "profile_intro_big profile_intro_big" "profile_avatar_big profile_infos_big" "profile_avatar_big profile_footer_big";
+    grid-template-columns: 156px 440px;
+    grid-template-rows: 49px 100px 49px;
+    height: 198px;
+    margin: 20px;
+    width: 598px;
+    z-index: 3;
+}
+
+.user_card_big_grid_avatar, .player_card_big_grid_avatar
+{
+    align-self: center;
+    grid-area: profile_avatar_big;
+    justify-self: center;
+}
+
+.user_card_big_grid_footer, .player_card_big_grid_footer
+{
+    align-items: center;
+    grid-area: profile_footer_big;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user_card_big_grid_infos, .player_card_big_grid_infos
+{
+    grid-area: profile_infos_big;
+}
+
+.user_card_big_grid_intro, .player_card_big_grid_intro
+{
+    align-self: center;
+    grid-area: profile_intro_big;
+}
+
+.user_card_big_infos_div, .player_card_big_infos_div
+{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    height: 100px;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.user_card_big_intro_div, .player_card_big_intro_div
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_card_big_pseudo, .player_card_big_pseudo
+{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.user_card_big_reputation_stars, .player_card_big_reputation_stars
+{
+    margin-right: 20px;
+}
+/********************************************************************************************************/

@@ -1,0 +1,357 @@
+/* smartphone landscape à tablet portrait */
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        font-size: 15px !important;
+        grid-template-rows: 50px 1fr 40px;
+    }
+
+    header
+    {
+        position: relative;
+    }
+
+    main
+    {
+        min-width: 320px;
+        width: 90vw;
+    }
+
+    h1
+    {
+        font-size: 30px;
+    }
+
+    .main_buttons_div
+    {
+        min-width: 300px;
+    }
+
+    footer
+    {
+        min-width: 100vw;
+        height: 40px;
+    }
+
+    .mobile
+    {
+        display: inline-block;
+    }
+
+    .web
+    {
+        display: none;
+    }
+
+    #header_div
+    {
+        min-width: 360px;
+        width: 100vw;
+    }
+
+    .header_user_div
+    {
+        align-items: flex-end;
+        flex-direction: column;
+        position: relative;
+    }
+
+    #header_buttons_mobile
+    {
+        background-color: steelblue;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        justify-content: space-around;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 49px;
+        width: 100vw;
+        z-index: 5;
+    }
+
+    .header_button
+    {
+        font-size: 15px !important;
+        height: 38px !important;
+        width: 180px !important;
+    }
+
+    .header_pseudo_button
+    {
+        font-size: 15px !important;
+        height: 38px !important;
+        min-width: 180px !important;
+        max-width: 220px !important;
+        position: relative;
+    }
+
+    #user_card_mobile
+    {
+        left: 20px;
+        top: 40px;
+    }
+
+    .header_menu_parents_div
+    {
+        left: 0;
+        position: absolute;
+        top: 49px;
+    }
+
+    #header_menu_parents_mobile
+    {
+        /*display: flex;*/
+        flex-direction: column;
+        margin: 0;
+        position: relative;
+        z-index: 5;
+    }
+
+    .header_menu_mobile_images
+    {
+        display: inline;
+        float: left;
+        height: 48px;
+        left: 160px;
+        position: absolute;
+        width: 48px;
+        z-index: 2;
+    }
+
+    .header_menu_parents
+    {
+        z-index: 1 !important;
+    }
+
+    #header_menu_children_events_mobile, #header_menu_children_more_mobile, #header_menu_children_profile_mobile
+    {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        margin-left: 50px !important;
+        position: static !important;
+    }
+
+    .home_base
+    {
+        text-align: left;
+    }
+
+    #mobile_background
+    {
+        background-color: rgba(163, 163, 163, 0.5);
+        height: 100vh;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        z-index: 1;
+    }
+
+    #main_div
+    {
+        min-height: 220px;
+        min-width: 300px;
+        width: 90vw;
+    }
+
+    #inscription_form_div, .avatar_form_div, #connection_form_div, .event_modification_form_div, .new_event_form_div, .recuperation_form_div,
+    #contact_form_div, .security_forms_div, .suppression_div, .suppression_div_archive, .suppression_div_suppress
+    {
+        min-width: 300px;
+        width: 300px;
+    }
+
+    #inscription_form, .contact_form
+    {
+        width: 300px;
+    }
+
+    .inscription_form_inputs, .contact_form_inputs
+    {
+        width: 280px;
+    }
+
+    .contact_form_text_area
+    {
+        width: 280px;
+    }
+
+    #log_div
+    {
+        height: auto;
+        min-width: 300px;
+        position: relative;
+        z-index: 10;
+    }
+
+    #connection_buttons
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .new_event_form_inputs, .event_modification_form_inputs
+    {
+        height: 30px;
+        position: relative;
+    }
+
+    .return_button
+    {
+        align-self: flex-end !important;
+    }
+
+    .list_events_array
+    {
+        background-color: #DFDFDF;
+        border-collapse: collapse;
+        margin: 10px auto 20px auto;
+        min-width: 300px !important;
+        max-width: 300px !important;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .event_table_datetime, .user_event_table_datetime
+    {
+        min-width: 90px !important;
+        max-width: 130px !important;
+    }
+
+    .event_table_name, .user_event_table_name
+    {
+        min-width: 90px !important;
+        max-width: 90px !important;
+
+    }
+
+    .event_table_game, .user_event_table_game
+    {
+        display: none;
+    }
+
+    .event_table_players, .user_event_table_players
+    {
+        min-width: 90px !important;
+        max-width: 90px !important;
+    }
+
+    .event_table_creator, .user_event_table_creator
+    {
+        display: none;
+    }
+
+    .events_text
+    {
+        overflow: hidden;
+        text-overflow: "-";
+        white-space: normal;
+    }
+
+    .profile_div_1
+    {
+        text-align: center;
+    }
+
+    .profile_div_2, .profile_div_3
+    {
+        flex-direction: column;
+        margin: 0;
+        width: 320px;
+    }
+
+    #user_card_profile_mobile, #player_card_profile_mobile
+    {
+        margin-bottom: 40px;
+        position: static;
+    }
+
+    .user_card_grid_footer, .player_card_grid_footer
+    {
+        align-items: end;
+    }
+
+    .profile_global_div
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user_header_button_mobile_link
+    {
+        display: inline-block;
+        margin: 0 auto;
+        width: 180px;
+    }
+
+    .event_zoom_content
+    {
+        flex-direction: column;
+        min-width: 300px;
+        width: 300px;
+    }
+
+    .event_zoom_infos, .event_zoom_lists, .event_zoom_chat_div
+    {
+        width: 300px;
+    }
+
+    .creator_card_grid
+    {
+        left: 10px !important;
+        top: 20px !important;
+    }
+
+    .player_card_grid, .waiter_card_grid
+    {
+        left: -33px;
+        top: 25px;
+    }
+
+    .avatar_change_button
+    {
+        height: 35px !important;
+    }
+
+    .profile_zoom_li, .profile_zoom_titles, .profile_zoom_values
+    {
+        min-width: 300px;
+        width: 300px;
+    }
+
+    .calendar
+    {
+        width: 300px !important;
+    }
+
+    .calendar_table td
+    {
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    .calendar_table td p, .calendar_table td a, .calendar_table td span
+    {
+        font-size: 15px !important;
+    }
+
+    .year
+    {
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (min-width: 769px)
+{
+    .mobile
+    {
+        display: none;
+    }
+}

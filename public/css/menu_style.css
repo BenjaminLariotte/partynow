@@ -1,0 +1,92 @@
+.header_menu
+{
+    display: inline-block;
+    flex-direction: column;
+    float: unset;
+    height: 50px;
+    position: relative;
+    z-index: 5;
+}
+
+.header_menu:hover
+{
+    cursor: pointer;
+}
+
+#header_menu_image
+{
+    background-color: steelblue;
+    border: 1px solid steelblue;
+    border-bottom-color: black;
+    height: 48px;
+    width: 48px;
+}
+
+#header_menu_image:hover
+{
+    background-color: deepskyblue;
+    border-color: white;
+}
+
+#header_menu_parents
+{
+    flex-direction: column;
+    margin: -4px auto;
+    padding: 0;
+    position: relative;
+}
+
+#header_menu_children_events, #header_menu_children_more, #header_menu_children_profile
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+#header_menu_parent_home, #header_menu_parent_events_div, #header_menu_parent_profile_div, #header_menu_parent_more_div
+{
+    display: flex;
+    /*position: absolute;*/
+}
+
+.header_menu_children_events, .header_menu_children_profile, .header_menu_children_more, .header_menu_parents
+
+{
+    background-color: steelblue;
+    border: 1px solid black;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    height: 38px;
+    padding: 5px;
+    /*position: relative;*/
+    width: 198px;
+}
+
+.header_menu_children_events:hover, .header_menu_children_profile:hover, .header_menu_children_more:hover, .header_menu_parents:hover
+{
+    background-color: deepskyblue;
+    border-color: white;
+    color: white;
+}
+
+.header_menu_div
+{
+    position: relative;
+}
+
+.header_menu_parents
+{
+    background-color: steelblue;
+    border: 1px solid black;
+    color: white;
+    display: inline-block;
+    font-size: 20px;
+    height: 38px;
+    padding: 5px;
+    position: relative;
+    width: 198px;
+    z-index: 500;
+}

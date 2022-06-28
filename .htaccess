@@ -1,0 +1,19 @@
+Options +FollowSymlinks
+Options -Indexes
+
+# Rewriting module activation
+RewriteEngine On
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# Rend l'adresse plus jolie
+RewriteRule ^(.*)/?$ /index.php?parameter=$1 [QSA]
+
+
+
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTPS} off
+# Renvois vers le https
+RewriteRule ^(.*)$ https://www.partynow.eu/$1 [L,R]

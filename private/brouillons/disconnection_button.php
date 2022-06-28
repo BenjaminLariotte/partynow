@@ -1,0 +1,1 @@
+<a id="disconnection_button" href="<?= WEBROOT ?>User/disconnect"><button>Se déconnecter</button></a>
